@@ -1,0 +1,290 @@
+CRITICAL - 2021-05-27 07:55:00 --> Call to undefined method App\Controllers\Admin::getVar()
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 07:55:25 --> Undefined property: App\Controllers\Admin::$input
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:13:19 --> syntax error, unexpected token "endif"
+#0 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/akun', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(39): view('admin/akun', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 08:14:17 --> Call to a member function getVar() on null
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(31): App\Models\Core->editAkun()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:16:25 --> Call to a member function getVar() on null
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:17:23 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$cYrVSfyG...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:18:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$NnLxbIVL...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:19:02 --> syntax error, unexpected token "as", expecting ")"
+#0 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core')
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 08:19:20 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$oOcqmQSJ...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:20:38 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$mEMr86pW...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:21:18 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$Ceukf4Jc...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:21:45 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$F/rmhY49...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:22:09 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core')
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 08:30:56 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('$2y$10$uUARvEW8...', 'update')
+#1 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '$2y$10$uUARvEW8...')
+#2 C:\xampp\htdocs\dapur\app\Models\Core.php(81): CodeIgniter\Model->update('1', '$2y$10$uUARvEW8...')
+#3 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$uUARvEW8...')
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 08:31:33 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$39Oz5bZT...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 08:31:52 --> There is no data to update.
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\dapur\app\Models\Core.php(81): CodeIgniter\Model->update('$2y$10$JIdRpXJL...')
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$JIdRpXJL...')
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 08:32:26 --> There is no data to update.
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\dapur\app\Models\Core.php(81): CodeIgniter\Model->update('$2y$10$uk3DQ7aj...')
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$uk3DQ7aj...')
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 08:33:46 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\dapur\app\Models\Core.php on line 79
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Database\BaseBuilder->update('1', '$2y$10$mAZgBOEs...')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$mAZgBOEs...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:33:57 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\dapur\app\Models\Core.php on line 79
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Database\BaseBuilder->update('1', '$2y$10$BZEZuQRW...')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$BZEZuQRW...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:35:11 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\dapur\app\Models\Core.php on line 79
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Database\BaseBuilder->insert('1', '$2y$10$RLRS.IEr...')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$RLRS.IEr...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 08:35:24 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\dapur\app\Models\Core.php on line 79
+#0 C:\xampp\htdocs\dapur\app\Models\Core.php(79): CodeIgniter\Database\BaseBuilder->update('1', '$2y$10$lCyUeSC2...')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(33): App\Models\Core->editAkun('muhammad.toffaz...', '$2y$10$lCyUeSC2...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->akun()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 09:05:59 --> syntax error, unexpected identifier "to", expecting ";"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/akun')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/akun')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 09:06:01 --> syntax error, unexpected identifier "to", expecting ";"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/akun')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/akun')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 09:06:21 --> Class "App\Controllers\User" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 09:06:46 --> Class "App\Controllers\User" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 09:06:49 --> Class "App\Controllers\User" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 09:07:13 --> Class "App\Controllers\User" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-27 09:08:21 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp\htdocs\dapur\system\BaseModel.php(663): CodeIgniter\Model->update('1', Array)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(48): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-27 09:11:03 --> There is no data to update.
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(48): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 09:11:45 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('$2y$10$Uoao9Uws...', 'update')
+#1 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '$2y$10$Uoao9Uws...')
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(46): CodeIgniter\Model->update('1', '$2y$10$Uoao9Uws...')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 09:14:50 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/editAkun')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/editAkun')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 09:15:24 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/editAkun')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/editAkun')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 09:16:56 --> Undefined property: App\Controllers\Admin::$db
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-27 09:17:50 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray('$2y$10$an0gyeuF...', 'update')
+#1 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, '$2y$10$an0gyeuF...')
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(46): CodeIgniter\Model->update('1', '$2y$10$an0gyeuF...')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-27 09:19:03 --> There is no data to update.
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(864): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(48): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-27 09:19:22 --> Allowed fields must be specified for model: App\Models\User
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User')
+#1 C:\xampp\htdocs\dapur\system\BaseModel.php(874): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\dapur\system\Model.php(737): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp\htdocs\dapur\system\BaseModel.php(663): CodeIgniter\Model->update('1', Array)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(48): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

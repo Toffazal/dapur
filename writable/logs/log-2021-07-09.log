@@ -1,0 +1,62 @@
+CRITICAL - 2021-07-09 13:19:28 --> Call to undefined function App\Controllers\acak()
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-09 13:19:47 --> Call to undefined function App\Controllers\acak()
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-09 13:20:19 --> Call to undefined function App\Controllers\acak()
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-09 13:21:22 --> Trying to get property 'email' of non-object
+#0 /home/dapurma3/public_html/app/Controllers/Admin.php(1345): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/dapurma3/...', 1345, Array)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-09 13:24:06 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:27:06 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:27:08 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:27:08 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:27:14 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:28:14 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:28:35 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:28:39 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2021-07-09 13:33:33 --> Call to undefined method App\Controllers\Admin::acakk()
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-09 13:33:42 --> Call to undefined method App\Controllers\Admin::acakk()
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->resetPassword()
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-07-09 13:34:17 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:40:20 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2021-07-09 13:41:24 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2021-07-09 14:12:26 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 /home/dapurma3/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/kirimEmai...')
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/kirimEmai...')
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-09 14:19:59 --> Trying to get property 'email' of non-object
+#0 /home/dapurma3/public_html/app/Controllers/Admin.php(1398): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/dapurma3/...', 1398, Array)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->kirimEmail()
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

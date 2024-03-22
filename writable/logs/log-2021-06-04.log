@@ -1,0 +1,63 @@
+CRITICAL - 2021-06-04 08:10:42 --> Too few arguments to function App\Controllers\Admin::hapusMenu(), 0 passed in C:\xampp\htdocs\dapur\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-04 08:13:57 --> syntax error, unexpected single-quoted string "ACCESS DANIED!", expecting ")"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/hapusMenu')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/hapusMenu')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 08:14:00 --> syntax error, unexpected single-quoted string "ACCESS DANIED!", expecting ")"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/menu')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/menu')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 08:14:01 --> syntax error, unexpected single-quoted string "ACCESS DANIED!", expecting ")"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 08:14:41 --> Call to undefined function App\Controllers\sesssion()
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-04 08:25:41 --> unlink(assets/img/): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 277)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(277): unlink('assets/img/')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu('8')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 08:26:02 --> unlink(public/assets/img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp\\htdocs...', 277)
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(277): unlink('public/assets/i...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu('8')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 08:28:04 --> Attempt to read property "gambar" on array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 281)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu('8')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 08:28:25 --> Undefined variable $slug
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 275)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->hapusMenu('8')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

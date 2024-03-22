@@ -1,0 +1,54 @@
+CRITICAL - 2021-04-01 03:09:43 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\latihan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\latihan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-01 03:29:04 --> Undefined variable $komik
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Home.php(10): view('index')
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-01 05:14:35 --> Undefined variable $komik
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Home.php(10): view('index')
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-01 05:41:24 --> Undefined variable $title
+#0 C:\xampp\htdocs\dapur\app\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\View\View.php(236): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\dapur\app\Controllers\Home.php(10): view('index')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-01 07:20:51 --> Undefined variable $datap
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Home.php(13): view('index', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-05-31 01:16:43 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-31 01:20:41 --> Undefined variable $sampulLama
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editAkun()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 23:51:11 --> Call to undefined method App\Models\User::getMenu
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(79): CodeIgniter\Model->__call('getMenu', Array)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->menu()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

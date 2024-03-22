@@ -1,0 +1,127 @@
+CRITICAL - 2021-06-20 05:48:16 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 05:48:37 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 05:48:44 --> syntax error, unexpected integer "1", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-20 05:49:44 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 05:52:57 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(149): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-20 05:57:14 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(149): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-20 06:01:32 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(149): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-20 06:06:40 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(149): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-20 06:12:57 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(149): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-20 06:15:02 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-20 06:15:29 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-20 06:15:45 --> Call to a member function ger_result() on array
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-20 06:15:53 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-20 06:16:59 --> Undefined variable $k
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-20 06:19:06 --> Undefined variable $balasan
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(145): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2021-03-21 02:19:36 --> Call to undefined function endSection()
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(220): include()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('pages/about', Array, true)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Pages.php(21): view('pages/about', Array)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Pages->about()
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-21 02:19:36 --> Uncaught ErrorException: chmod(): Operation not permitted in /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Handlers/FileHandler.php:131
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/storage/emulat...', 131, Array)
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Handlers/FileHandler.php(131): chmod('/storage/emulat...', 420)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Logger.php(353): CodeIgniter\Log\Handlers\FileHandler->handle('critical', 'Call to undefin...')
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(829): CodeIgniter\Log\Logger->log('critical', 'Call to undefin...', Array)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Debug/Exceptions.php(129): log_message('critical', 'Call to undefin...', Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

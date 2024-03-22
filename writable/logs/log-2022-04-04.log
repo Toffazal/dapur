@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-04 01:39:30 --> Undefined variable: g
+#0 /home/dapurma3/public_html/app/Views/detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dapurma3/...', 48, Array)
+#1 /home/dapurma3/public_html/system/View/View.php(220): include('/home/dapurma3/...')
+#2 /home/dapurma3/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dapurma3/public_html/system/Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 /home/dapurma3/public_html/app/Controllers/Menu.php(154): view('detail', Array)
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Menu->detail('kue-sepit')
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,18 @@
+CRITICAL - 2021-05-04 09:14:57 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('pesan')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('pesan')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-04 09:57:58 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(138): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

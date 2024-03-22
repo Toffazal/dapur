@@ -1,0 +1,449 @@
+CRITICAL - 2021-03-26 14:16:03 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\latihan\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\latihan\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-26 14:18:09 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\latihan\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\latihan\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-26 14:18:12 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\latihan\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\latihan\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-26 14:24:23 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\latihan\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\latihan\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-26 14:24:25 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\latihan\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\latihan\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2021-03-26 08:31:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-03-26 08:31:52 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\latihan\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\latihan\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\latihan\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\latihan\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(19): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 09:18:23 --> syntax error, unexpected variable "$k", expecting ")"
+#0 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#2 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(25): view('komik/index', Array)
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 09:25:53 --> Call to undefined method App\Models\KomikModel::all
+#0 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(30): CodeIgniter\Model->__call('all', Array)
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('black-clover')
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-26 09:34:25 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\latihan\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\latihan\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 09:49:40 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:51:41 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:51:44 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:22 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:25 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:25 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:52:25 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:53:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:53:30 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:55:59 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:00 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:00 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:56:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:58:46 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:58:47 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:58:47 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:58:48 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:59:09 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:59:09 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:59:10 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 09:59:10 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\latihan\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 10:00:13 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#2 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(34): view('komik/detail', Array)
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('yuri-one-ice')
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-26 11:21:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\latihan\app\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\latihan\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#4 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(36): view('komik/detail', Array)
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('create')
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 11:23:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\latihan\app\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\latihan\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#4 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(36): view('komik/detail', Array)
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('create')
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-26 11:24:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\latihan\app\Views\komik\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\latihan\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/detail', Array, true)
+#4 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(36): view('komik/detail', Array)
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->detail('creatde')
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

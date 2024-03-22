@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-06 11:50:23 --> Undefined variable: totalTime
+#0 /home/dapurma3/public_html/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dapurma3/...', 41, Array)
+#1 /home/dapurma3/public_html/system/Debug/Toolbar.php(456): include('/home/dapurma3/...')
+#2 /home/dapurma3/public_html/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/dapurma3/public_html/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/dapurma3/public_html/system/Events/Events.php(166): call_user_func(Object(Closure))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

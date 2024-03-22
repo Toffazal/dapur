@@ -1,0 +1,74 @@
+CRITICAL - 2021-06-01 00:02:34 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/menu', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(82): view('admin/menu', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->menu()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-01 05:50:06 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\dapur\app\Views\admin\tambahMenu.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/tambahMen...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(93): view('admin/tambahMen...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->tambahMenu()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-01 06:38:06 --> Could not move file php716A.tmp to public/assets/img/ ()
+#0 C:\xampp\htdocs\dapur\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php716A.tmp', 'public/assets/i...', '')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-01 06:39:16 --> Undefined property: App\Controllers\Admin::$KomikModel
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 06:43:11 --> Undefined property: App\Controllers\Admin::$KomikModel
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 06:43:52 --> Class "App\Models\KomikModel" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Komik->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 06:46:19 --> Class "App\Models\KomikModel" not found
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Komik->__construct()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 06:49:03 --> Could not move file php7268.tmp to public/assets/img/ ()
+#0 C:\xampp\htdocs\dapur\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7268.tmp', 'public/assets/i...', '')
+#1 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-01 06:50:04 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 06:50:18 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanMenu()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

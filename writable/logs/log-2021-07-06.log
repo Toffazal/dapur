@@ -1,0 +1,196 @@
+ERROR - 2021-07-06 00:46:11 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 00:46:11 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 00:46:11 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 00:46:21 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 00:46:21 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 00:46:21 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 01:13:53 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:13:53 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 01:13:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 01:13:57 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:13:57 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 01:13:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 01:14:43 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:14:43 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 01:14:43 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 01:14:50 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:14:50 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 01:14:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-07-06 01:17:02 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:17:02 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-06 01:17:28 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'dapurma3_dapur'
+CRITICAL - 2021-07-06 01:17:28 --> Unable to connect to the database.
+#0 /home/dapurma3/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dapurma3/public_html/system/Database/BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/dapurma3/public_html/app/Models/Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/dapurma3/public_html/app/Controllers/Home.php(22): App\Models\Core->getTerbatas()
+#4 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-06 01:17:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dapurma3/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dapurma3/...', 100, Array)
+#1 /home/dapurma3/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dapurma3/public_html/system/Debug/Exceptions.php(281): include('/home/dapurma3/...')
+#3 /home/dapurma3/public_html/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-06 09:07:19 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-07-06 09:07:20 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 /home/dapurma3/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-07-06 09:07:33 --> Undefined property: App\Controllers\Home::$Galeri
+#0 /home/dapurma3/public_html/app/Controllers/Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/dapurma3/...', 67, Array)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->galeri('bolu-ulang-tahu...')
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-06 09:09:08 --> Undefined property: App\Controllers\Home::$Galeri
+#0 /home/dapurma3/public_html/app/Controllers/Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/dapurma3/...', 67, Array)
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(936): App\Controllers\Home->galeri('bolu-ulang-tahu...')
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-06 09:11:16 --> syntax error, unexpected 'Galeri' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/dapurma3/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('home/galeri/bol...')
+#1 /home/dapurma3/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home/galeri/bol...')
+#2 /home/dapurma3/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/dapurma3/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dapurma3/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,7 @@
+.chart{
+	height: 130px;
+	background: blue;
+	border-radius: 5px;
+	vertical-align: top;
+	box-shadow: 3px 3px 10px lightgray;
+}

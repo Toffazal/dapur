@@ -1,0 +1,238 @@
+CRITICAL - 2021-06-09 02:56:03 --> Undefined property: stdClass::$jumlah
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Home.php(23): view('index', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 04:02:54 --> Undefined property: App\Controllers\Admin::$Galei
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 545)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-09 04:03:24 --> Call to a member function getGaleri() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 04:04:23 --> Call to a member function getGaleri() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 04:04:56 --> Call to a member function getGaleri() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri('kie-sepit')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 04:04:59 --> Call to a member function getGaleri() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 04:06:49 --> Undefined property: stdClass::$gambar
+#0 C:\xampp\htdocs\dapur\app\Views\admin\galeri.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/galeri', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(548): view('admin/galeri', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 04:07:22 --> Undefined property: stdClass::$nama
+#0 C:\xampp\htdocs\dapur\app\Views\admin\galeri.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/galeri', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(548): view('admin/galeri', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 04:09:29 --> Invalid file: admin/lihatGaleri.php
+#0 C:\xampp\htdocs\dapur\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lihatGale...')
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri('bolu-ulang-tahu...')
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-09 04:12:24 --> Undefined property: stdClass::$galeri
+#0 C:\xampp\htdocs\dapur\app\Views\admin\galeri.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/galeri', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(548): view('admin/galeri', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:50:52 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->Galeri('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:52:16 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:54:17 --> Attempt to read property "slug" on string
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:55:19 --> Attempt to read property "slug" on string
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:57:25 --> Undefined variable $g
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:57:35 --> Attempt to read property "slug" on string
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 05:59:13 --> Attempt to read property "slug" on string
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:00:08 --> Attempt to read property "galeri" on string
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:02:04 --> Undefined variable $d
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:03:21 --> Attempt to read property "galeri" on array
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:03:50 --> Attempt to read property "galeri" on array
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:03:53 --> Attempt to read property "galeri" on array
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:04:10 --> Attempt to read property "galeri" on array
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 06:30:01 --> Attempt to read property "slug" on null
+#0 C:\xampp\htdocs\dapur\app\Views\admin\lihatGaleri.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/lihatGale...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(540): view('admin/lihatGale...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->galeri('bolu-ulang-tahu...')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

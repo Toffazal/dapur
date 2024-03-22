@@ -1,0 +1,78 @@
+CRITICAL - 2022-01-06 01:20:50 --> Array and string offset access syntax with curly braces is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-06 01:21:15 --> Array and string offset access syntax with curly braces is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-06 01:24:15 --> Array and string offset access syntax with curly braces is no longer supported
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-06 01:26:28 --> Too few arguments to function App\Controllers\Admin::acak(), 0 passed in C:\xampp\htdocs\dapur\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->acak()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-06 01:29:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266338312 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-06 07:48:50 --> count(): Argument #1 ($var) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\dapur\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(131): view('admin/index', Array)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-06 22:05:17 --> mysqli_sql_exception: Table 'dapur.terbatas' doesn't exist in C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dapur\app\Models\Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\dapur\app\Controllers\Home.php(25): App\Models\Core->getTerbatas()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-06 22:05:18 --> Table 'dapur.terbatas' doesn't exist
+#0 C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dapur\app\Models\Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\dapur\app\Controllers\Home.php(25): App\Models\Core->getTerbatas()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-06 22:05:20 --> mysqli_sql_exception: Table 'dapur.terbatas' doesn't exist in C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dapur\app\Models\Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\dapur\app\Controllers\Home.php(25): App\Models\Core->getTerbatas()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-06 22:05:20 --> Table 'dapur.terbatas' doesn't exist
+#0 C:\xampp\htdocs\dapur\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dapur\app\Models\Core.php(74): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\dapur\app\Controllers\Home.php(25): App\Models\Core->getTerbatas()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

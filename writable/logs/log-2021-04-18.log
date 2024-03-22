@@ -1,0 +1,31 @@
+CRITICAL - 2021-04-18 11:07:03 --> Undefined variable $kategory
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(135): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-18 11:11:16 --> Attempt to read property "gambar" on string
+#0 C:\xampp\htdocs\dapur\app\Views\detail.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(135): view('detail', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-18 11:31:14 --> syntax error, unexpected variable "$d", expecting "," or ";"
+#0 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(135): view('detail', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

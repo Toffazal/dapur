@@ -1,0 +1,189 @@
+CRITICAL - 2021-06-14 06:49:09 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->simpanGaleri()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 07:19:39 --> Undefined property: stdClass::$gambar
+#0 C:\xampp\htdocs\dapur\app\Views\admin\editGaleri.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/editGaler...', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(637): view('admin/editGaler...', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->editGaleri('kue-sepit')
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 07:30:44 --> syntax error, unexpected variable "$slug"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/updateGal...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/updateGal...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:31:38 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/updateGal...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/updateGal...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:31:58 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/updateGal...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/updateGal...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:32:08 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(683): unlink('public/assets/k...', '20210603_153924...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->updateGaleri()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:34:39 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(684): unlink('public/assets/k...', '20210603_153924...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->updateGaleri()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:37:24 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(683): unlink('public/assets/k...', '20210603_153924...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->updateGaleri()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 07:43:39 --> Cannot redeclare App\Controllers\Admin::hapusOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-14 07:43:53 --> Cannot redeclare App\Controllers\Admin::hapusOrder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-14 08:54:39 --> syntax error, unexpected token "=="
+#0 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\dapur\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core')
+#2 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core')
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(908): App\Controllers\Admin->__construct()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 09:00:31 --> Undefined variable $d
+#0 C:\xampp\htdocs\dapur\app\Views\admin\komentar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/komentar', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(732): view('admin/komentar', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->komentar()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 09:00:46 --> Undefined property: stdClass::$slug
+#0 C:\xampp\htdocs\dapur\app\Views\admin\komentar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('admin/komentar', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(732): view('admin/komentar', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->komentar()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 12:20:11 --> Undefined variable $id
+#0 C:\xampp\htdocs\dapur\app\Controllers\Admin.php(730): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 730)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Admin->komentar()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 12:28:46 --> Cannot declare class App\Controllers\Komentar because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-14 12:30:21 --> Undefined variable $validation
+#0 C:\xampp\htdocs\dapur\app\Views\komentar.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('komentar', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(21): view('komentar', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-14 13:14:40 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\dapur\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('komentar')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('komentar')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 13:15:20 --> Undefined property: App\Controllers\Komentar::$Galeri
+#0 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 13:15:34 --> Undefined property: App\Controllers\Komentar::$Komen
+#0 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 13:15:40 --> There is no data to insert.
+#0 C:\xampp\htdocs\dapur\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\dapur\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\dapur\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(74): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-14 13:26:40 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 13:37:17 --> Call to a member function getPin() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 13:38:26 --> Call to a member function getPin() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 13:39:42 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\dapur\app\Controllers\Komentar.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-14 13:43:04 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 13:44:04 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Komentar->simpan()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komentar))
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 13:46:23 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

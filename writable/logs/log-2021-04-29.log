@@ -1,0 +1,112 @@
+CRITICAL - 2021-04-29 06:20:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Home.php(19): App\Models\Core->getTerbatas()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-29 06:20:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Home.php(19): App\Models\Core->getTerbatas()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-29 06:21:32 --> Undefined property: mysqli::$slug
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Home.php(23): view('index', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-29 06:24:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Home.php(19): App\Models\Core->getTerbatas()
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-29 07:08:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-04-29 07:08:41 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\dapur\app\Models\Core.php(57): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\dapur\app\Controllers\Home.php(19): App\Models\Core->getTerbatas()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-04-29 07:08:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-04-29 07:08:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\dapur\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\dapur\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\dapur\app\Models\Core.php(57): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\dapur\app\Controllers\Home.php(19): App\Models\Core->getTerbatas()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-29 07:36:10 --> Undefined variable $terbatas
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('index', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-29 07:37:05 --> Undefined variable $terbatas
+#0 C:\xampp\htdocs\dapur\app\Views\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\dapur\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dapur\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('index', Array)
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-29 07:37:28 --> Invalid file: order.php
+#0 C:\xampp\htdocs\dapur\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('order', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('order', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index()
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-29 07:37:42 --> Invalid file: order.php
+#0 C:\xampp\htdocs\dapur\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('order', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('order', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index(false)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-29 07:38:11 --> Invalid file: order.php
+#0 C:\xampp\htdocs\dapur\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('order', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('order', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index(NULL)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-29 07:38:23 --> Invalid file: order.php
+#0 C:\xampp\htdocs\dapur\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+#1 C:\xampp\htdocs\dapur\system\Common.php(1217): CodeIgniter\View\View->render('order', Array, true)
+#2 C:\xampp\htdocs\dapur\app\Controllers\Order.php(28): view('order', Array)
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Order->index(NULL)
+#4 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#5 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

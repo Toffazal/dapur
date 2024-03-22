@@ -1,0 +1,49 @@
+CRITICAL - 2021-03-31 04:06:45 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\latihan\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1617181605_8894...')
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->save()
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-31 04:07:09 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\latihan\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1617181629_570e...')
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->save()
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-31 04:07:22 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\latihan\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1617181642_b816...')
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->save()
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-31 04:08:04 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->save()
+#1 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-31 04:08:55 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\latihan\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(104): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/i...', '1617181735_c573...')
+#2 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->save()
+#3 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-31 04:32:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\latihan\app\Views\komik\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\latihan\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\latihan\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\latihan\system\Common.php(1217): CodeIgniter\View\View->render('komik/edit', Array, true)
+#4 C:\xampp\htdocs\latihan\app\Controllers\Komik.php(138): view('komik/edit', Array)
+#5 C:\xampp\htdocs\latihan\system\CodeIgniter.php(936): App\Controllers\Komik->edit('black-clover')
+#6 C:\xampp\htdocs\latihan\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\latihan\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\latihan\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

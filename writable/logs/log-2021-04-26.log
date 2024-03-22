@@ -1,0 +1,21 @@
+CRITICAL - 2021-04-26 03:57:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::limit()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(133): App\Models\Core->getGallery('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 03:57:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::limit()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(133): App\Models\Core->getGallery('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-26 03:58:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::limit()
+#0 C:\xampp\htdocs\dapur\app\Controllers\Menu.php(135): App\Models\Core->getKomen('bolu-ulang-tahu...')
+#1 C:\xampp\htdocs\dapur\system\CodeIgniter.php(936): App\Controllers\Menu->detail('bolu-ulang-tahu...')
+#2 C:\xampp\htdocs\dapur\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp\htdocs\dapur\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dapur\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

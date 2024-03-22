@@ -1,0 +1,137 @@
+CRITICAL - 2021-03-22 07:18:03 --> Invalid file: komik/home.php
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik/home.php')
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/home', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(13): view('komik/home', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 07:18:03 --> Uncaught ErrorException: chmod(): Operation not permitted in /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Handlers/FileHandler.php:131
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/storage/emulat...', 131, Array)
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Handlers/FileHandler.php(131): chmod('/storage/emulat...', 420)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Log/Logger.php(353): CodeIgniter\Log\Handlers\FileHandler->handle('critical', 'Invalid file: k...')
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(829): CodeIgniter\Log\Logger->log('critical', 'Invalid file: k...', Array)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Debug/Exceptions.php(129): log_message('critical', 'Invalid file: k...', Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-22 07:31:47 --> Invalid file: komik.php
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik.php')
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(13): view('komik', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 07:32:12 --> Invalid file: komik.php
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik.php')
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(13): view('komik', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 07:33:16 --> Invalid file: komik/.php
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik/.php')
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(13): view('komik/', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 07:34:07 --> Invalid file: komik.php
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik.php')
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(13): view('komik', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 09:04:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:26:09 --> Class 'App\Controllers\KomikModel' not found
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(908): App\Controllers\Komik->__construct()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:27:08 --> Class 'App\Controllers\KomikModel' not found
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(908): App\Controllers\Komik->__construct()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:27:11 --> Class 'App\Controllers\KomikModel' not found
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(908): App\Controllers\Komik->__construct()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:34:55 --> Undefined variable: komik
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/storage/emulat...', 21, Array)
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-22 09:35:32 --> Undefined index: sampul
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Views/komik/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/storage/emulat...', 22, Array)
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(220): include('/storage/emulat...')
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(25): view('komik/index', Array)
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-22 09:41:22 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(25): view('komik/index', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 09:42:22 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(25): view('komik/index', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 09:42:36 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(25): view('komik/index', Array)
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 09:45:37 --> Trying to get property 'judul' of non-object
+#0 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Views/komik/index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/storage/emulat...', 24, Array)
+#1 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(220): include('/storage/emulat...')
+#2 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/Common.php(1217): CodeIgniter\View\View->render('komik/index', Array, true)
+#4 /storage/emulated/0/Icode-Go/data_files/www/latihan/app/Controllers/Komik.php(25): view('komik/index', Array)
+#5 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(936): App\Controllers\Komik->index()
+#6 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 /storage/emulated/0/Icode-Go/data_files/www/latihan/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/Icode-Go/data_files/www/latihan/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
